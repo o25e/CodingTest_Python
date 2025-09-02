@@ -1,0 +1,7 @@
+num1 = int(input())
+num2 = input()
+a,b,c = map(int, num2)
+print(num1*c)
+print(num1*b)
+print(num1*a)
+print(num1*int(num2))
