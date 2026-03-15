@@ -21,7 +21,7 @@ x3, y3 = map(int, input().split())
 #     x4 = x1
 #     y4 = y2
 
-x4 = x1 ^ x2 ^ x3
+x4 = x1 ^ x2 ^ x3 #XOR 연산(같은 값 두 번 나오면 0이 되고, 남은 값만 남음)
 y4 = y1 ^ y2 ^ y3
 
 print(x4, y4)
